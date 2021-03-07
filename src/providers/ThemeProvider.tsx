@@ -1,9 +1,20 @@
 import React, { createContext } from 'react';
 import useDarkMode from 'hooks/useDarkMode';
 
-export const ThemeContext = createContext('light');
+type Theme = 'light' | 'dark';
 
-export default ({ children }) => {
+interface ThemeValue {
+  theme: Theme;
+  toggleTheme(): void;
+}
+
+const defaultValue = {
+  theme: 'dark',
+} as ThemeValue;
+
+export const ThemeContext = createContext(defaultValue);
+
+const ThemeProvider = ({ children }) => {
   const [theme, toggleTheme] = useDarkMode();
 
   return (
@@ -17,3 +28,5 @@ export default ({ children }) => {
     </ThemeContext.Provider>
   );
 };
+
+export default ThemeProvider;

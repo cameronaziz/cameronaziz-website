@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 
-export const Button = styled.button`
+interface ButtonProps {
+  secondary?: boolean;
+}
+
+export const Button = styled.button<ButtonProps>`
   cursor: pointer;
   border-radius: 3px;
   padding: 0.7rem 2.5rem;

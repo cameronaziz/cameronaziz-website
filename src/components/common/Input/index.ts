@@ -1,6 +1,11 @@
 import styled from 'styled-components';
 
-export const Input = styled.input`
+interface InputProps {
+  error?: Error;
+}
+
+
+export const Input = styled.input<InputProps>`
   width: 100%;
   box-sizing: border-box;
   border: 2px solid #6c63ff;

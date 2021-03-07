@@ -1,0 +1,30 @@
+{
+  "include": [
+    "./src/**/*"
+  ],
+  "compilerOptions": {
+    "target": "esnext",
+    "baseUrl": "./src",
+    "module": "esnext",
+    "lib": ["dom", "es2017"],
+    "paths": {
+      "assets": [
+        "./src/assets"
+      ],
+      "components": [
+        "./src/components"
+      ],
+      "providers": [
+        "./src/providers"
+      ]
+    },
+    "moduleResolution": "node",
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noEmit": true,
+    "skipLibCheck": true
+  }
+}

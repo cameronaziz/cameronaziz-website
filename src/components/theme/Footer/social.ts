@@ -1,4 +1,4 @@
-[
+const social = [
   {
     "id": 0,
     "name": "Telegram",
@@ -24,3 +24,5 @@
     "icon": "/icons/twitter.svg"
   }
 ]
+
+export default social;
