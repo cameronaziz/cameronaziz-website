@@ -18,12 +18,13 @@ export const Skills: FunctionComponent = () => {
           <h2>More about me</h2>
           <p>
             My passion for open source technologies has allowed me to take products and applications from conception to
-            production. I am a trusted communicator between technical and non-technical staff which allows me to architect
-            solutions that are both rapid to deploy and easily scalable
+            production. I am a trusted communicator between technical and non-technical staff, which allows me to architect
+            solutions that are both rapid to deploy and easily scalable.
           </p>
           <p>
             I am a full stack engineer specializing in Node.
-            I have worked on devops, backend and frontend teams individually and I enjoy web technologies such as React, GraphQL and library development.
+            I have worked on frontend, devops, and backend teams individually.
+            I enjoy web technologies such as React, GraphQL, and library development.
           </p>
           <Button as={AnchorLink} href="#contact">
             Contact me
