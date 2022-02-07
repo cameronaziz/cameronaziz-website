@@ -11,9 +11,6 @@ export const Skills: FunctionComponent = () => {
   return (
     <Wrapper id="about">
       <SkillsWrapper as={Container}>
-        <Thumbnail>
-          <img src={dev} alt="I’m an engineer!" />
-        </Thumbnail>
         <Details theme={theme}>
           <h2>More about me</h2>
           <p>
