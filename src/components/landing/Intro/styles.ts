@@ -10,7 +10,7 @@ export const Wrapper = styled.div`
 `;
 
 export const IntroWrapper = styled.div`
-  padding: 4rem 0 4rem 10vw;
+  padding: 4rem 0 4rem 15vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
