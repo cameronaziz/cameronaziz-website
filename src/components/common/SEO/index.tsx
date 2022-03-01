@@ -57,9 +57,9 @@ export const SEO = ({ title = defaultTitle, description = defaultDescription, lo
       <meta property="og:url" content={`${url}${location}/?ref=smakosh.com`} />
       <meta property="og:type" content="website" />
       <meta property="og:title" content={title} />
-      <meta property="og:description" content={description} />
       <meta property="og:image" content={Thumbnail} />
       <meta property="fb:app_id" content={social.facebook} />
+      <meta property="og:description" content="Web Engineer specializing in React, Typescript and GraphQL." />
 
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:creator" content={socialLinks.twitter} />
