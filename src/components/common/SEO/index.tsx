@@ -58,6 +58,7 @@ export const SEO = ({ title = defaultTitle, description = defaultDescription, lo
       <meta property="og:type" content="website" />
       <meta property="og:title" content={title} />
       <meta property="og:image" content={Thumbnail} />
+      <meta property="og:image" content={Thumbnail} />
       <meta property="fb:app_id" content={social.facebook} />
       <meta property="og:description" content="Web Engineer specializing in React, Typescript and GraphQL." />
 
@@ -66,7 +67,7 @@ export const SEO = ({ title = defaultTitle, description = defaultDescription, lo
       <meta name="twitter:site" content={social.twitter} />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
-      <meta name="twitter:image:src" content={Thumbnail} />
+      <meta name="twitter:image" content={Thumbnail} />
       <script type="application/ld+json">{structuredDataOrganization}</script>
       <link rel="publisher" href={socialLinks.google} />
       <title>{title}</title>
